@@ -5,7 +5,7 @@ def displayInventory(inventory):
     print('Inventory: ')
     total = 0 
     for a,b in stuff.items():
-        print(a, b)
+        print(b, a)
         total = total + b
     print('Total number of items:', total)
 if __name__ == "__main__":
